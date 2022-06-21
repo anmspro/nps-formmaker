@@ -16,7 +16,7 @@ Vue.use(VueEditor)
 const messages = {
   'en-US': {
     header: {
-      title: 'FormMaking',
+      title: 'RedDot NPS Solution',
       document: 'Docs',
       pricing: 'Pricing',
       advanced: 'Advanced',
