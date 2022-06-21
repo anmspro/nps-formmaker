@@ -16,6 +16,7 @@
         <a target="_blank" href="https://github.com/GavinZhuLei/vue-form-making">GitHub</a>
         -->
         <div class="action-item">
+          <!--
           <el-dropdown trigger="click" @command="handleLangCommand">
             <span class="el-dropdown-link">
               {{$route.params.lang == 'zh-CN' ? '简体中文' : 'English'}}<i class="el-icon-arrow-down el-icon--right"></i>
@@ -25,11 +26,12 @@
               <el-dropdown-item command="en-US">English</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
+          -->
         </div>
-
+        <!--
         <a class="ad" href="http://form.xiaoyaoji.cn" target="_blank">{{$t('header.advanced')}}</a>
         <a class="ad" href="http://www.xiaoyaoji.cn" target="_blank" v-if="$lang == 'zh-CN'">小幺鸡接口工具</a>
-        
+        -->
       </div>
       
     </div>
@@ -59,8 +61,8 @@ export default {
   height: 50px;
   box-shadow: 0 2px 10px rgba(70,160,252, 0.6);
   padding: 0 10px;
-  background-image: linear-gradient(to right,#1278f6,#00b4aa);
-  // background-image: linear-gradient(to right,#ff0000,#ffffff);
+  // background-image: linear-gradient(to right,#1278f6,#00b4aa);
+  background-image: linear-gradient(to right,#ffffff, #ff0000);
   position: relative;
 
   .fm-logo{
@@ -71,7 +73,8 @@ export default {
     display: inline-block;
     line-height: 50px;
     vertical-align: middle;
-    color: #fff;
+    // color: #fff;
+    color: #f00;
     font-size: 20px;
     font-weight: 600;
     opacity: 0.8;
